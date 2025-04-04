@@ -26,8 +26,6 @@ void setup() {
   pinMode(MR_DIR,OUTPUT);
   pinMode(ML_PWM,OUTPUT);
   pinMode(ML_DIR,OUTPUT);
-  pinMode(ARM_PWM,OUTPUT);
-  pinMode(ARM_DIR,OUTPUT);
 }
 
 static std::array<std::array<int, 2>, 2> current;
